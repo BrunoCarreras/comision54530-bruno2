@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  background-color: #fff3e2;
+  display: grid;
+  grid-template-columns: 6% 86% 8%;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 130px; }
+  .header h1 {
+    padding-left: 20px;
+    font-size: 40px;
+    gap: 30px; }
+  .header p {
+    font-size: 20px; }
+
+.buscador-sass {
+  padding-top: 95px; }
+  .buscador-sass img {
+    height: 30px; }
+
+.logo {
+  height: 130px; }
+
+.main-principal {
+  background-color: #ffe5ca;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 40px;
+  justify-items: center;
+  align-items: center; }
+  .main-principal h3 {
+    padding-top: 20px;
+    font-size: 30px;
+    gap: 20px; }
+
+.main-segunda {
+  background-color: #ffe5ca;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 30px;
+  justify-items: center;
+  align-items: center; }
+  .main-segunda h2 {
+    font-size: 40px;
+    gap: 30px; }
+  .main-segunda h3 {
+    padding-top: 20px;
+    font-size: 30px; }
+
+.main-tercera {
+  background-color: #ffe5ca;
+  padding-top: 20px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 30px; }
+  .main-tercera h3 {
+    padding-top: 20px;
+    font-size: 30px;
+    gap: 20px; }
+
+.main-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #fff3e2;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr; }
+  .main-footer li {
+    font-size: 30px; }
+
+header {
+  display: grid;
+  background-color: #fff3e2;
+  grid-template-columns: 6% 4% 78% 12%;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 130px; }
+  header h1 {
+    padding-left: 40px;
+    font-size: 40px; }
+  header img {
+    height: 30px; }
+
+.logomueblesass {
+  height: 130px; }
+
+main {
+  background-color: #ffe5ca; }
+  main h2 {
+    display: grid;
+    gap: 20px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+    align-items: center; }
+  main div {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+.mueble, .mueble2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center; }
+
+.main-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #fff3e2;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr; }
+  .main-footer li {
+    font-size: 30px; }
