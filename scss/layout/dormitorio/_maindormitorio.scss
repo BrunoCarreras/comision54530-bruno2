@@ -1,5 +1,5 @@
 
-.main-mueble{
+.main-dormitorio{
     background-color: rgb(255, 229, 202);
     h2{
         display: grid;
@@ -20,13 +20,13 @@
         padding-bottom: 20px;
     }
 }
-.mueble{
+.dormitorio{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
 }
-.mueble2{
+.dormitorio2{
     @extend .mueble
 }
 .main-footer{

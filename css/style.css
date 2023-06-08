@@ -89,12 +89,12 @@ header {
   header img {
     height: 30px; }
 
-.logomueblesass {
+.logo {
   height: 130px; }
 
-main {
+.main-mueble {
   background-color: #ffe5ca; }
-  main h2 {
+  .main-mueble h2 {
     display: grid;
     gap: 20px;
     font-size: 30px;
@@ -102,7 +102,7 @@ main {
     padding-bottom: 20px;
     justify-items: center;
     align-items: center; }
-  main div {
+  .main-mueble div {
     display: grid;
     justify-items: center;
     align-items: center;
@@ -111,7 +111,96 @@ main {
     padding-top: 20px;
     padding-bottom: 20px; }
 
-.mueble, .mueble2 {
+.mueble, .mueble2, .living2, .dormitorio2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center; }
+
+.main-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #fff3e2;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr; }
+  .main-footer li {
+    font-size: 30px; }
+
+header {
+  display: grid;
+  background-color: #fff3e2;
+  grid-template-columns: 6% 4% 78% 12%;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 130px; }
+  header h1 {
+    padding-left: 40px;
+    font-size: 40px; }
+  header img {
+    height: 30px; }
+
+.logo {
+  height: 130px; }
+
+.main-living {
+  background-color: #ffe5ca; }
+  .main-living h2 {
+    display: grid;
+    gap: 20px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+    align-items: center; }
+  .main-living div {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+.living {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center; }
+
+.main-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #fff3e2;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr; }
+  .main-footer li {
+    font-size: 30px; }
+
+.main-dormitorio {
+  background-color: #ffe5ca; }
+  .main-dormitorio h2 {
+    display: grid;
+    gap: 20px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+    align-items: center; }
+  .main-dormitorio div {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+.dormitorio {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
