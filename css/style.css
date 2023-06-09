@@ -111,7 +111,7 @@ header {
     padding-top: 20px;
     padding-bottom: 20px; }
 
-.mueble, .mueble2, .living2, .dormitorio2 {
+.mueble, .mueble2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -164,7 +164,7 @@ header {
     padding-top: 20px;
     padding-bottom: 20px; }
 
-.living {
+.living, .living2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -200,7 +200,7 @@ header {
     padding-top: 20px;
     padding-bottom: 20px; }
 
-.dormitorio {
+.dormitorio, .dormitorio2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
