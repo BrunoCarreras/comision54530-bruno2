@@ -1,0 +1,35 @@
+[33mcommit af6a60bf098c37f858a05952c9b9c4a9bcb179f7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: brunocarreras <brunocarreras147@gmail.com>
+Date:   Thu Jun 8 22:26:35 2023 -0300
+
+    corregi errores de nombre en dormitorio
+
+[33mcommit 636f4e23c4bb1b433c9f1df6a41a285e7b16f231[m
+Author: brunocarreras <brunocarreras147@gmail.com>
+Date:   Thu Jun 8 22:14:58 2023 -0300
+
+    hice el formulario
+
+[33mcommit 5829c32e88dc6e8dcd6d163d9bc23d097dc8778a[m
+Author: brunocarreras <brunocarreras147@gmail.com>
+Date:   Thu Jun 8 20:39:41 2023 -0300
+
+    hice la pag de dormitorio
+
+[33mcommit 49a8c81635aaa4ccc6d5f3e4e5b4eaa4103135f6[m
+Author: brunocarreras <brunocarreras147@gmail.com>
+Date:   Wed Jun 7 22:17:18 2023 -0300
+
+    hice livingsass
+
+[33mcommit 03e7f69dbde8858ac222c2f329b6df2d59374f64[m
+Author: brunocarreras <brunocarreras147@gmail.com>
+Date:   Wed Jun 7 21:48:39 2023 -0300
+
+    hice la pag de muebleria
+
+[33mcommit c6b970156d4cba929ca37e00cfc46e92f5af831c[m
+Author: brunocarreras <brunocarreras147@gmail.com>
+Date:   Wed Jun 7 21:39:12 2023 -0300
+
+    hice el inicio con sass

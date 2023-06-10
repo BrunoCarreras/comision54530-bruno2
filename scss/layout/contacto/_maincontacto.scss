@@ -6,12 +6,21 @@
     justify-items: center; 
     h2{
         display: grid;
-        align-items: center;
         justify-items: center;
+        align-items: center;
+        width: 500px;
+        height: 70px;
+        background: #FFF3E2;
+        border: 7px solid #FFFFFF;
         gap: 20px;
         font-size: 30px;
         padding-top: 20px;
         padding-bottom: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    h3{
+        font-size: 30px;
     }
     iframe{
         height: 350px;
