@@ -1,6 +1,6 @@
 .header{
-    background-color: rgb(255, 243, 226);
     display: grid;
+    background-color: $color-header;
     grid-template-columns: 6% 86% 8%;
     justify-items: center;
     align-items: center;
