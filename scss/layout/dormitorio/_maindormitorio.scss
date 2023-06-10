@@ -3,14 +3,12 @@
     background-color: rgb(255, 229, 202);
     padding-top: 20px;
     h2{
+        @include borde ( 300px ,75px);
         display: grid;
         margin-bottom: 50px;
         margin-top: 20px;
         margin-left: 800px;
         margin-right: 800px;
-        background: #FFF3E2;
-        border: 7px solid #FFFFFF;
-        height: 75px;
         gap: 20px;
         font-size: 30px;
         padding-top: 20px;

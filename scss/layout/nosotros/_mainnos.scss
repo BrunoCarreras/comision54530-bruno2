@@ -6,14 +6,11 @@
     justify-items: center;
     align-items: center;
     h2{
+        @include borde( 250px, 70px);
         display: grid;
         justify-items: center;
         align-items: center;
         font-size: 30px;
-        width: 250px;
-        height:70px;
-        background: #FFF3E2;
-        border: 7px solid #FFFFFF;
     }
     h3{
         display: grid;

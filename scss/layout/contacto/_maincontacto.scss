@@ -5,13 +5,10 @@
     display: grid;
     justify-items: center; 
     h2{
+        @include borde ( 500px ,75px);
         display: grid;
         justify-items: center;
         align-items: center;
-        width: 500px;
-        height: 70px;
-        background: #FFF3E2;
-        border: 7px solid #FFFFFF;
         gap: 20px;
         font-size: 30px;
         padding-top: 20px;

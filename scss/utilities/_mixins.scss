@@ -1,0 +1,6 @@
+@mixin borde($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+    background: #FFF3E2;
+    border: 7px solid #FFFFFF;
+}
