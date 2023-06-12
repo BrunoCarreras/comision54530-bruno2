@@ -1,7 +1,7 @@
 @media (max-width:425px){
     .header{
         display: grid;
-        grid-template-columns: 20% 53% 27%;
+        grid-template-columns: 20% 52% 28%;
         height: 90px;
         h1{
             font-size: 20px;
@@ -20,41 +20,74 @@
         padding-top: 60px;
     }
     .main-principal{
-        img{
-            height: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "img1"
+        "inicio1"
+        "img2"
+        "inicio2"
+        "img3"
+        "inicio3"
+        ;
+        .img1{
+            grid-area: img1;
         }
-        h3{
-            font-size: 23px;
+        .inicio1{
+            grid-area: inicio1;
         }
+        .img2{
+            grid-area: img2;
+        }
+        .inicio2{
+            grid-area: inicio2;
+        }
+        .img3{
+            grid-area: img3
+        }
+        .inicio3{
+            grid-area: inicio3;
+        }
+        gap: 5px;
     }
     .main-segunda{
-        img{
-            height: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "inicio4"
+        "img4"
+        "inicio5"
+        "nada"
+        "img5"
+        "inicio6"
+        ;
+        .img4{
+            grid-area: img4;
         }
-        h3{
-            font-size: 23px;
+        .inicio5{
+            grid-area: inicio5;
         }
+        .inicio4{
+            grid-area: inicio4;
+        }
+        .nada{
+            grid-area: nada;
+        }
+        .img5{
+            grid-area: img5;
+        }
+        .inicio6{
+            grid-area: inicio6;
+        }
+        gap: 5px;
         h2{
-            @include borde ( 140px ,40px);
-            font-size: 20px;
-            gap: 25px;
-        }
-    }
-    .main-tercera{
-        img{
-            height: 100px;
-        }
-        h3{
-            font-size: 23px;
+            margin-bottom: 20px;
         }
     }
     .main-footer{
-        img{
-            height: 20px;
-        }
         li{
+            list-style-type: none;
             font-size: 20px;
         }
-        height: 70px;
     }
 }

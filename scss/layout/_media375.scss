@@ -23,6 +23,9 @@
 
 .main-principal{
     display: grid;
+    img{
+        height: 150px;
+    }
     grid-template-columns: 1fr;
     grid-template-areas: 
     "img1"
@@ -54,6 +57,9 @@
 }
 .main-segunda{
     display: grid;
+    img{
+        height: 150px;
+    }
     grid-template-columns: 1fr;
     grid-template-areas: 
     "inicio4"
