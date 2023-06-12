@@ -1,0 +1,60 @@
+@media (max-width:425px){
+    .header{
+        display: grid;
+        grid-template-columns: 20% 53% 27%;
+        height: 90px;
+        h1{
+            font-size: 20px;
+        }
+    }
+    .logo{
+        height: 90px;
+    }
+    .buscador-sass{
+        img{
+            height: 18px;
+        }
+        p{
+            font-size: 18px;
+        }
+        padding-top: 60px;
+    }
+    .main-principal{
+        img{
+            height: 100px;
+        }
+        h3{
+            font-size: 23px;
+        }
+    }
+    .main-segunda{
+        img{
+            height: 100px;
+        }
+        h3{
+            font-size: 23px;
+        }
+        h2{
+            @include borde ( 140px ,40px);
+            font-size: 20px;
+            gap: 25px;
+        }
+    }
+    .main-tercera{
+        img{
+            height: 100px;
+        }
+        h3{
+            font-size: 23px;
+        }
+    }
+    .main-footer{
+        img{
+            height: 20px;
+        }
+        li{
+            font-size: 20px;
+        }
+        height: 70px;
+    }
+}

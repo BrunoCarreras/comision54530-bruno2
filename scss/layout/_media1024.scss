@@ -1,0 +1,36 @@
+@media (max-width:1024px){
+    .header{
+        display: grid;
+        grid-template-columns: 11% 75% 14%;
+        h1{
+            font-size: 35px;
+        }
+    }
+    .main-principal{
+        img{
+            height: 250px;
+        }
+        h3{
+            font-size: 27px;
+        }
+    }
+    .main-segunda{
+        img{
+            height: 250px;
+        }
+        h2{
+            font-size: 35px;
+        }
+        h3{
+            font-size: 27px;
+        }
+    }
+    .main-tercera{
+        img{
+            height: 250px;
+        }
+        h3{
+            font-size: 27px;
+        }
+    }
+}

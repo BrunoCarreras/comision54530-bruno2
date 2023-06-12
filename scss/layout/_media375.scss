@@ -1,0 +1,95 @@
+@media (max-width: 375px){
+    .header{
+        display: grid;
+        grid-template-columns: 15% 58% 27%;
+        height: 60px;
+        h1{
+            padding-left: 50px;
+            font-size: 16px;
+        }
+    }
+    .buscador-sass{
+        padding-top: 35px;
+        p{
+            font-size: 16px;
+        }
+        img{
+            height: 16px;
+        }
+    }
+    .logo{
+        height: 60px;
+    }
+
+.main-principal{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "img1"
+    "inicio1"
+    "img2"
+    "inicio2"
+    "img3"
+    "inicio3"
+    ;
+    .img1{
+        grid-area: img1;
+    }
+    .inicio1{
+        grid-area: inicio1;
+    }
+    .img2{
+        grid-area: img2;
+    }
+    .inicio2{
+        grid-area: inicio2;
+    }
+    .img3{
+        grid-area: img3
+    }
+    .inicio3{
+        grid-area: inicio3;
+    }
+    gap: 5px;
+}
+.main-segunda{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "inicio4"
+    "img4"
+    "inicio5"
+    "nada"
+    "img5"
+    "inicio6"
+    ;
+    .img4{
+        grid-area: img4;
+    }
+    .inicio5{
+        grid-area: inicio5;
+    }
+    .inicio4{
+        grid-area: inicio4;
+    }
+    .nada{
+        grid-area: nada;
+    }
+    .img5{
+        grid-area: img5;
+    }
+    .inicio6{
+        grid-area: inicio6;
+    }
+    gap: 5px;
+    h2{
+        margin-bottom: 20px;
+    }
+}
+.main-footer{
+    li{
+        list-style-type: none;
+        font-size: 16px;
+    }
+}
+}

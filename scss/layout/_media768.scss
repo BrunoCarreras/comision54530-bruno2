@@ -1,0 +1,43 @@
+@media (max-width: 768px){
+    .header{
+    display: grid;
+    grid-template-columns: 13% 70% 17%;
+    height: 110px;
+    h1{
+        font-size: 30px;
+    }
+    }
+    .logo{
+        height: 110px;
+    }
+    .buscador-sass{
+        padding-top: 80px;
+        img{
+            height: 25px;
+        }
+    }
+    .main-principal{
+        img{
+            height: 180px;
+        }
+    }
+    .main-segunda{
+        img{
+            height: 180px;
+        }
+        h2{
+            @include borde ( 240px ,70px);
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            font-size: 30px;
+            gap: 30px;
+        }
+    }
+    
+    .main-tercera{
+        img{
+            height: 180px;
+        }
+    }
+}

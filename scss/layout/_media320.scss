@@ -1,0 +1,24 @@
+@media (max-width:320px){
+    .header{
+            display: grid;
+            grid-template-columns: 12% 57% 31%;
+            height: 50px;
+            h1{
+                padding-left: 50px;
+                font-size: 16px;
+            }
+    }
+    .logo{
+        height: 50px;
+    }
+    .buscador-sass{
+        padding-top: 20px;
+    p{
+        font-size: 16px;
+    }
+    img{
+        height: 16px;
+    }
+    }
+
+}
