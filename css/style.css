@@ -132,6 +132,10 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center; }
+  .mueble h3, .mueble2 h3 {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
 
 .main-footer {
   width: 100%;
@@ -194,6 +198,10 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center; }
+  .living h3, .living2 h3 {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
 
 .main-footer {
   width: 100%;
@@ -399,6 +407,15 @@ header {
   .dormitorio img, .dormitorio2 img {
     height: 250px; } }
 
+/*living*/
+@media (max-width: 1024px) {
+  .header-living {
+    grid-template-columns: 11% 8% 61% 20%; }
+  .main-living h2 {
+    margin-left: 365px; }
+  .living img, .living2 img {
+    height: 250px; } }
+
 /*inicio*/
 @media (max-width: 768px) {
   .header {
@@ -462,6 +479,22 @@ header {
   .dormitorio img, .dormitorio2 img {
     height: 200px; }
   .dormitorio h3, .dormitorio2 h3 {
+    font-size: 25px; } }
+
+/*living*/
+@media (max-width: 768px) {
+  .header-living {
+    height: 110px;
+    grid-template-columns: 13% 9% 51% 27%; }
+    .header-living h1 {
+      padding-left: 70px; }
+    .header-living p img {
+      height: 25px; }
+  .main-living h2 {
+    margin-left: 250px; }
+  .living img, .living2 img {
+    height: 200px; }
+  .living h3, .living2 h3 {
     font-size: 25px; } }
 
 /*inicio*/
@@ -618,6 +651,60 @@ header {
   .comp6 {
     grid-area: comp6; } }
 
+/*living*/
+@media (max-width: 425px) {
+  .header-living {
+    height: 90px;
+    grid-template-columns: 19% 9% 47% 23%; }
+    .header-living h1 {
+      font-size: 20px;
+      padding-left: 0px; }
+    .header-living li {
+      font-size: 16px; }
+    .header-living p {
+      font-size: 16px; }
+      .header-living p img {
+        display: none; }
+  .main-living h2 {
+    width: 200px;
+    height: 65px;
+    background: #FFF3E2;
+    border: 7px solid #FFFFFF;
+    font-size: 20px;
+    margin-left: 115px; }
+  .living, .living2 {
+    grid-template-columns: 1fr;
+    grid-template-areas: "iml1" "compl1" "iml2" "compl2" "iml3" "compl3"; }
+    .living .iml1, .living2 .iml1 {
+      grid-area: iml1; }
+    .living .compl1, .living2 .compl1 {
+      grid-area: compl1; }
+    .living .iml2, .living2 .iml2 {
+      grid-area: iml2; }
+    .living .compl2, .living2 .compl2 {
+      grid-area: compl2; }
+    .living .iml3, .living2 .iml3 {
+      grid-area: iml3; }
+    .living .compl3, .living2 .compl3 {
+      grid-area: compl3; }
+    .living img, .living2 img {
+      height: 120px; }
+  .living2 {
+    grid-template-columns: 1fr;
+    grid-template-areas: "iml4" "compl4" "iml5" "compl5" "iml6" "compl6"; }
+  .iml4 {
+    grid-area: iml4; }
+  .compl4 {
+    grid-area: compl4; }
+  .iml5 {
+    grid-area: iml5; }
+  .compl5 {
+    grid-area: compl5; }
+  .iml6 {
+    grid-area: iml6; }
+  .compl6 {
+    grid-area: compl6; } }
+
 /*inicio*/
 @media (max-width: 375px) {
   .header {
@@ -729,6 +816,23 @@ header {
   .dormitorio h3, .dormitorio2 h3 {
     font-size: 20px; } }
 
+/*living*/
+@media (max-width: 375px) {
+  .header-living {
+    height: 60px;
+    grid-template-columns: 14% 10% 49% 27%; }
+    .header-living h1 {
+      font-size: 16px; }
+  .main-living h2 {
+    width: 180px;
+    height: 65px;
+    background: #FFF3E2;
+    border: 7px solid #FFFFFF;
+    font-size: 18px;
+    margin-left: 100px; }
+  .living h3, .living2 h3 {
+    font-size: 20px; } }
+
 /*inicio*/
 @media (max-width: 320px) {
   .header {
@@ -774,6 +878,20 @@ header {
     height: 50px;
     grid-template-columns: 14% 13% 43% 30%; }
   .main-dormitorio h2 {
+    width: 160px;
+    height: 40px;
+    background: #FFF3E2;
+    border: 7px solid #FFFFFF;
+    font-size: 16px;
+    margin-left: 80px;
+    padding-bottom: 30px; } }
+
+/*living*/
+@media (max-width: 320px) {
+  .header-living {
+    height: 50px;
+    grid-template-columns: 14% 13% 43% 30%; }
+  .main-living h2 {
     width: 160px;
     height: 40px;
     background: #FFF3E2;

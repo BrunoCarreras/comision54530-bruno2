@@ -236,3 +236,93 @@
     }
     
 }
+/*living*/
+@media (max-width: 425px){
+    .header-living{
+        height: 90px;
+        grid-template-columns: 19% 9% 47% 23%;
+        h1{
+            font-size: 20px;
+            padding-left: 0px;
+        }
+        li{
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+            img{
+                display: none;
+            }
+        }
+
+    }
+    .main-living{
+        h2{
+            @include borde (200px, 65px);
+            font-size: 20px;
+            margin-left: 115px;
+        }
+    }
+    .living{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "iml1"
+        "compl1"
+        "iml2"
+        "compl2"
+        "iml3"
+        "compl3"
+        ;
+        .iml1{
+            grid-area: iml1;
+        }
+        .compl1{
+            grid-area: compl1;
+        }
+        .iml2{
+            grid-area: iml2;
+        }
+        .compl2{
+            grid-area: compl2;
+        }
+        .iml3{
+            grid-area: iml3;
+        }
+        .compl3{
+            grid-area: compl3;
+        }
+        img{
+            height: 120px;
+        }
+    }
+    .living2{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "iml4"
+        "compl4"
+        "iml5"
+        "compl5"
+        "iml6"
+        "compl6"
+        ;
+    }
+    .iml4{
+        grid-area: iml4;
+    }
+    .compl4{
+        grid-area: compl4;
+    }
+    .iml5{
+        grid-area: iml5;
+    }
+    .compl5{
+        grid-area: compl5;
+    }
+    .iml6{
+        grid-area: iml6;
+    }
+    .compl6{
+        grid-area: compl6;
+    }
+    
+}

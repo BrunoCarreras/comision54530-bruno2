@@ -71,3 +71,19 @@
         }
     }
 }
+/*living*/
+@media (max-width: 1024px){
+    .header-living{
+        grid-template-columns: 11% 8% 61% 20%;
+    }
+    .main-living{
+        h2{
+            margin-left: 365px;
+        }
+    }
+    .living{
+        img{
+            height: 250px;
+        }
+    }
+}

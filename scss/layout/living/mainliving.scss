@@ -31,6 +31,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
+    h3{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;}
 }
 .living2{
     @extend .living
