@@ -121,3 +121,31 @@
         }
     }
 }
+/*muebleria*/
+@media (max-width: 768px){
+    .header-mueble{
+        height: 110px;
+        grid-template-columns: 13% 9% 51% 27%;
+        h1{
+            padding-left: 70px;
+        }
+        p{
+            img{
+                height: 25px;
+            }
+        }
+    }
+    .main-mueble{
+        h2{
+            margin-left: 250px;
+        }
+    }
+    .mueble{
+        img{
+            height: 200px;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+}

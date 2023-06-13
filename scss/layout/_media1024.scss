@@ -87,3 +87,19 @@
         }
     }
 }
+/*muebleria*/
+@media (max-width: 1024px){
+    .header-mueble{
+        grid-template-columns: 11% 8% 60% 21%;
+    }
+    .main-mueble{
+        h2{
+            margin-left: 365px;
+        }
+    }
+    .mueble{
+        img{
+            height: 250px;
+        }
+    }
+}

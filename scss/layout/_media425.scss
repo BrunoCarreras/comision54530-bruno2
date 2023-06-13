@@ -326,3 +326,93 @@
     }
     
 }
+/*muebleria*/
+@media (max-width: 425px){
+    .header-mueble{
+        height: 90px;
+        grid-template-columns: 19% 9% 47% 23%;
+        h1{
+            font-size: 20px;
+            padding-left: 0px;
+        }
+        li{
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+            img{
+                display: none;
+            }
+        }
+
+    }
+    .main-mueble{
+        h2{
+            @include borde (200px, 65px);
+            font-size: 20px;
+            margin-left: 115px;
+        }
+    }
+    .mueble{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "imm1"
+        "compm1"
+        "imm2"
+        "compm2"
+        "imm3"
+        "compm3"
+        ;
+        .imm1{
+            grid-area: imm1;
+        }
+        .compm1{
+            grid-area: compm1;
+        }
+        .imm2{
+            grid-area: imm2;
+        }
+        .compm2{
+            grid-area: compm2;
+        }
+        .imm3{
+            grid-area: imm3;
+        }
+        .compm3{
+            grid-area: compm3;
+        }
+        img{
+            height: 120px;
+        }
+    }
+    .mueble2{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "imm4"
+        "compm4"
+        "imm5"
+        "compm5"
+        "imm6"
+        "compm6"
+        ;
+    }
+    .imm4{
+        grid-area: imm4;
+    }
+    .compm4{
+        grid-area: compm4;
+    }
+    .imm5{
+        grid-area: imm5;
+    }
+    .compm5{
+        grid-area: compm5;
+    }
+    .imm6{
+        grid-area: imm6;
+    }
+    .compm6{
+        grid-area: compm6;
+    }
+    
+}

@@ -81,3 +81,18 @@
         }
     }
 }
+/*muebleria*/
+@media (max-width: 320px){
+    .header-mueble{
+        height: 50px;
+        grid-template-columns: 14% 13% 43% 30%;
+    }
+    .main-mueble{
+        h2{
+            @include borde (160px, 40px);
+            font-size: 16px;
+            margin-left: 80px;
+            padding-bottom: 30px;
+        }
+    }
+}
