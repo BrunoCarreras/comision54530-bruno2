@@ -16,21 +16,17 @@
         justify-items: center;
         align-items: center;
     }
-    div{
-        display: grid;
-        justify-items: center;
-        align-items: center;
-        grid-template-columns: 1fr 1fr 1fr;
-        font-size: 25px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
 }
 .dormitorio{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
+    h3{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
 }
 .dormitorio2{
     @extend .dormitorio

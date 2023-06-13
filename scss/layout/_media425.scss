@@ -1,3 +1,4 @@
+/*inicio*/
 @media (max-width:425px){
     .header{
         display: grid;
@@ -91,7 +92,7 @@
         }
     }
 }
-/*Inicio*/
+/*nosotros*/
 @media (max-width:425px){
     .header-nos{
         display: grid;
@@ -114,7 +115,7 @@
     }
     
 }
-/*nosotros*/
+/*contacto*/
 @media (max-width: 425px){
     .header-contacto{
         height: 90px;
@@ -144,4 +145,94 @@
     .main-footer{
         height: 90px;
     }
+}
+/*dormitorio*/
+@media (max-width: 425px){
+    .header-dormitorio{
+        height: 90px;
+        grid-template-columns: 19% 9% 47% 23%;
+        h1{
+            font-size: 20px;
+            padding-left: 0px;
+        }
+        li{
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+            img{
+                display: none;
+            }
+        }
+
+    }
+    .main-dormitorio{
+        h2{
+            @include borde (200px, 65px);
+            font-size: 20px;
+            margin-left: 115px;
+        }
+    }
+    .dormitorio{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "imd1"
+        "comp1"
+        "imd2"
+        "comp2"
+        "imd3"
+        "comp3"
+        ;
+        .imd1{
+            grid-area: imd1;
+        }
+        .comp1{
+            grid-area: comp1;
+        }
+        .imd2{
+            grid-area: imd2;
+        }
+        .comp2{
+            grid-area: comp2;
+        }
+        .imd3{
+            grid-area: imd3;
+        }
+        .comp3{
+            grid-area: comp3;
+        }
+        img{
+            height: 120px;
+        }
+    }
+    .dormitorio2{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "imd4"
+        "comp4"
+        "imd5"
+        "comp5"
+        "imd6"
+        "comp6"
+        ;
+    }
+    .imd4{
+        grid-area: imd4;
+    }
+    .comp4{
+        grid-area: comp4;
+    }
+    .imd5{
+        grid-area: imd5;
+    }
+    .comp5{
+        grid-area: comp5;
+    }
+    .imd6{
+        grid-area: imd6;
+    }
+    .comp6{
+        grid-area: comp6;
+    }
+    
 }

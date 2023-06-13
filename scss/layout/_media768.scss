@@ -1,3 +1,4 @@
+/*inicio*/
 @media (max-width: 768px){
     .header{
     display: grid;
@@ -41,7 +42,7 @@
         }
     }
 }
-/*Inicio*/
+/*nosotros*/
 @media (max-width:768px){
     .header-nos{
         grid-template-columns: 13% 5% 82%;
@@ -54,7 +55,7 @@
         }
     }
 }
-/*nosotros*/
+/*contacto*/
 @media (max-width: 768px){
     .header-contacto{
         height: 110px;
@@ -63,4 +64,33 @@
     .main-footer{
         height: 110px;
     }
+}
+/*dormitorio*/
+@media (max-width: 768px){
+    .header-dormitorio{
+        height: 110px;
+        grid-template-columns: 13% 9% 51% 27%;
+        h1{
+            padding-left: 70px;
+        }
+        p{
+            img{
+                height: 25px;
+            }
+        }
+    }
+    .main-dormitorio{
+        h2{
+            margin-left: 250px;
+        }
+    }
+    .dormitorio{
+        img{
+            height: 200px;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+
 }
