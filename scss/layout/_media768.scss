@@ -41,3 +41,16 @@
         }
     }
 }
+/*Inicio*/
+@media (max-width:768px){
+    .header-nos{
+        grid-template-columns: 13% 5% 82%;
+        height: 110px;
+        h1{
+            padding-left: 80px;
+        }
+        ul{
+            padding-left: 30px;
+        }
+    }
+}

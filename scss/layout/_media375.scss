@@ -99,3 +99,16 @@
     }
 }
 }
+/*Inicio*/
+@media (max-width: 375px){
+    .header-nos{
+        grid-template-columns: 14% 12% 74%;
+        height: 60px;
+    }
+    .main-nos{
+        h3{
+            width: 250px;
+            font-size: 16px;
+        }
+    }
+}

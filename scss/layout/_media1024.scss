@@ -34,3 +34,13 @@
         }
     }
 }
+/*Inicio*/
+@media (max-width:1024px){
+    .header-nos{
+        display: grid;
+        grid-template-columns: 11% 7% 82%;
+        h1{
+            padding-right: 220px;
+        }
+    }
+}

@@ -26,3 +26,17 @@
     }
 }
 }
+/*Inicio*/
+@media (max-width: 320px){
+    .header-nos{
+        height: 50px;
+        grid-template-columns: 14% 12% 74%;
+        h1{
+            font-size: 16px;
+            padding-right: 80px;
+        }
+        ul{
+            font-size: 16px;
+        }
+    }
+}

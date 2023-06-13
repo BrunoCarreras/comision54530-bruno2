@@ -91,3 +91,26 @@
         }
     }
 }
+/*Inicio*/
+@media (max-width:425px){
+    .header-nos{
+        display: grid;
+        height: 90px;
+        grid-template-columns: 19% 9% 72%;
+        h1{
+            font-size: 20px;
+            padding-right: 100px;
+            padding-left: 0px;
+        }
+    }
+    .main-nos{
+        h2{
+            @include borde( 200px, 50px);
+            font-size: 20px;
+        }
+        h3{
+            font-size: 18px;
+        }
+    }
+    
+}
