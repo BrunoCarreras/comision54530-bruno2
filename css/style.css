@@ -385,6 +385,14 @@ header {
     .header-nos h1 {
       padding-right: 220px; } }
 
+/*Nosotros*/
+@media (max-width: 1024px) {
+  .header-contacto {
+    grid-template-columns: 11% 7% 81%; }
+    .header-contacto h1 {
+      padding-right: 170px;
+      padding-left: 0px; } }
+
 @media (max-width: 768px) {
   .header {
     display: grid;
@@ -424,6 +432,14 @@ header {
       padding-left: 80px; }
     .header-nos ul {
       padding-left: 30px; } }
+
+/*nosotros*/
+@media (max-width: 768px) {
+  .header-contacto {
+    height: 110px;
+    grid-template-columns: 13% 10% 77%; }
+  .main-footer {
+    height: 110px; } }
 
 @media (max-width: 425px) {
   .header {
@@ -499,6 +515,31 @@ header {
   .main-nos h3 {
     font-size: 18px; } }
 
+/*nosotros*/
+@media (max-width: 425px) {
+  .header-contacto {
+    height: 90px;
+    grid-template-columns: 19% 16% 65%; }
+    .header-contacto h1 {
+      font-size: 25px;
+      padding-right: 140px; }
+  .formulario {
+    width: 300px; }
+  .main-contacto h2 {
+    font-size: 20px;
+    padding-top: 17px;
+    width: 300px;
+    height: 70px;
+    background: #FFF3E2;
+    border: 7px solid #FFFFFF; }
+  .main-contacto iframe {
+    width: 300px;
+    height: 300px; }
+  .main-contacto h3 {
+    font-size: 20px; }
+  .main-footer {
+    height: 90px; } }
+
 @media (max-width: 375px) {
   .header {
     display: grid;
@@ -555,9 +596,11 @@ header {
       grid-area: inicio6; }
     .main-segunda h2 {
       margin-bottom: 20px; }
-  .main-footer li {
-    list-style-type: none;
-    font-size: 16px; } }
+  .main-footer {
+    height: 84px; }
+    .main-footer li {
+      list-style-type: none;
+      font-size: 16px; } }
 
 /*Inicio*/
 @media (max-width: 375px) {
@@ -567,6 +610,28 @@ header {
   .main-nos h3 {
     width: 250px;
     font-size: 16px; } }
+
+/*nosotros*/
+@media (max-width: 375px) {
+  .header-contacto {
+    height: 60px;
+    grid-template-columns: 14% 11% 75%; }
+    .header-contacto li {
+      list-style-type: none; }
+    .header-contacto h1 {
+      font-size: 16px;
+      padding-right: 100px; }
+  .main-contacto h2 {
+    width: 250px;
+    height: 50px;
+    background: #FFF3E2;
+    border: 7px solid #FFFFFF;
+    font-size: 16px; }
+  .main-contacto iframe {
+    width: 250px;
+    height: 250px; }
+  .formulario {
+    width: 250px; } }
 
 @media (max-width: 320px) {
   .header {
@@ -597,3 +662,11 @@ header {
       padding-right: 80px; }
     .header-nos ul {
       font-size: 16px; } }
+
+/*nosotros*/
+@media (max-width: 320px) {
+  .header-contacto {
+    height: 50px;
+    grid-template-columns: 14% 13% 73%; }
+  .main-footer {
+    height: 94px; } }

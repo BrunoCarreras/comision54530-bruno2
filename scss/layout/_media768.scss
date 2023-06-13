@@ -54,3 +54,13 @@
         }
     }
 }
+/*nosotros*/
+@media (max-width: 768px){
+    .header-contacto{
+        height: 110px;
+        grid-template-columns: 13% 10% 77%;
+    }
+    .main-footer{
+        height: 110px;
+    }
+}

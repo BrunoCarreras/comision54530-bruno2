@@ -40,3 +40,13 @@
         }
     }
 }
+/*nosotros*/
+@media (max-width: 320px){
+    .header-contacto{
+        height: 50px;
+        grid-template-columns: 14% 13% 73%;
+    }
+    .main-footer{
+        height: 94px;
+    }
+}

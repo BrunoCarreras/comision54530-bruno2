@@ -114,3 +114,34 @@
     }
     
 }
+/*nosotros*/
+@media (max-width: 425px){
+    .header-contacto{
+        height: 90px;
+        grid-template-columns: 19% 16% 65%;
+        h1{
+            font-size: 25px;
+            padding-right: 140px;
+        }
+    }
+    .formulario{
+        width: 300px;
+    }
+    .main-contacto{
+        h2{
+            font-size: 20px;
+            padding-top: 17px;
+            @include borde (300px, 70px)
+        }
+        iframe{
+            width: 300px;
+            height: 300px;
+        }
+        h3{
+            font-size: 20px;
+        }
+    }
+    .main-footer{
+        height: 90px;
+    }
+}
